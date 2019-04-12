@@ -1,7 +1,7 @@
 {
   "name": "mist-bot",
   "version": "1.0.0",
-  "description": "Discord Bot made in Discord.Js",
+  "description": "Discord Bot written in Discord.Js",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -9,7 +9,7 @@
     "dev": "nodemon index.js"
   },
   "author": "Rubén 'Roy' Ortiz",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "canvas": "^2.4.1",
     "chance": "^1.0.18",
