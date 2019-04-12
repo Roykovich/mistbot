@@ -1,0 +1,25 @@
+{
+  "name": "mist-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot made in Discord.Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Rubén 'Roy' Ortiz",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.4.1",
+    "chance": "^1.0.18",
+    "discord.js": "^11.4.2",
+    "eslint": "^5.16.0",
+    "gif.js": "^0.2.0",
+    "node-fetch": "^2.3.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "rfr": "^1.2.3",
+    "snekfetch": "^4.0.4"
+  }
+}
