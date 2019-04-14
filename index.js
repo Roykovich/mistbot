@@ -6,9 +6,9 @@ const mistCore = require('./allomancyCore/core');
 
 const setup = {
 	// Token of the bot
-	token: 'NTYyMzQyMTE3Mjg0NzczOTA4.XKJbFw.C6h7feJqgNla-EmpCOhietOngy4',
+	token: 'TOKEN',
 	// Commands prefix
-	prefix: 'm!',	
+	prefix: 'PREFIX',	
 };
 
 const vin = new mistCore(setup);
