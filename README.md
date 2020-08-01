@@ -5,7 +5,7 @@
 <p>
 <!-- <img src="https://img.shields.io/badge/npm-v6.4.1-informational.svg"> -->
 <a href="http://wwww.discord.js.org"><img src="https://img.shields.io/badge/uses-discord.js-%237289DA.svg" alt="discord.js"></a>
-<img src="https://img.shields.io/badge/lincese-MIT-green.svg">
+<img src="https://img.shields.io/badge/license-MIT-green.svg">
 </p>
 </div>
 
@@ -13,11 +13,21 @@ We belong to the mist but most important we belong to the memes.
 
 ## What is Mist Bot?
 
-Mist Bot it's just a bot for Discord written in [Discord.js](http://wwww.discord.js.org) and made with love... And tears.
+Mist Bot it's just a bot for Discord written in Javascript using [Discord.js](http://wwww.discord.js.org) and made with love... And tears.
 
 ## Author
 
-**Rubén 'Roy' Ortiz** 
+**Rubén 'Roy' Ortiz**
+
+## Changelog
+
+- v1.1.0
+  - **Updated** Discord.js v11.4.2 to v12.0.2
+  - **Added libraries:** discordjs/opus, google-spreadsheet and puppeteer.
+  - **Removed libraries:** canvas, gif.js, node-fetch and snekfetch,
+  - **Added a help command**. If you type a command as an argument, it will return the description, aliases and the usage of the command. If you don't type any command it will return a list of all available commands.
+  - **Added** descriptions, usage and aliases to every command.
+  - **Commands added:** wowtoken, translator, urbandictionary and help.
 
 ## License
 
