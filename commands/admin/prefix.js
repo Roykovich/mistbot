@@ -3,14 +3,15 @@ const rfr = require('rfr');
 const data = rfr('/data/guildsData.json');
 module.exports = {
 	name: 'prefix',
-	description: 'Change the prefix of the bot for your guild.',
+	description: 'Change the prefix of the bot for this server.',
 	aliases: ['prefijo'],
-	usage: [''],
+	usage: '[command name] <prefix> or just [command name] to know the current prefix of the bot',
 	cooldown: 5,
 	execute(message, args) {
 		const guildID = message.guild.id;
 		const filter = (reaction, user) => {
-			return ['👍', '👎'].includes(reaction.emoji.name) && user.id === message.author.id;
+			return ['👍', '👎'].includes(reaction.emoji.name)
+				&& user.id === message.author.id;
 		};
 		const change = () => {
 			data[guildID].prefix = args[0];
@@ -21,7 +22,7 @@ module.exports = {
 			});
 		};
 		const reactFunc = async () => {
-			const question = await message.channel.send(`Do you want set your prefix to **${args[0]}**?`);
+			const question = await message.channel.send(`Do you want to set your prefix to **${args[0]}**?`);
 			// React to the question
 			await question.react('👍').then(() => question.react('👎'));
 			// Then wait for the user answer
@@ -48,8 +49,8 @@ module.exports = {
 				});
 		};
 
-		if(args[0]) {
-			if(args[0].length > 2) return message.reply('Use only a **2** caracters prefix.');
+		if (args[0]) {
+			if (args[0].length > 2) return message.reply('Use only a **2** caracters prefix.');
 			else reactFunc();
 		}
 		else {
