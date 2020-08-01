@@ -1,0 +1,682 @@
+﻿{
+  "languages": [
+    {
+      "codeID": "af",
+      "language": "Afrikaans",
+      "code": "af",
+      "flag": ":flag_za:"
+    },
+    {
+      "codeID": "sq",
+      "language": "Albanian",
+      "code": "sq",
+      "flag": ":flag_al:"
+    },
+    {
+      "codeID": "am",
+      "language": "Amharic",
+      "code": "am",
+      "flag": ":flag_et:"
+    },
+    {
+      "codeID": "ar",
+      "language": "Arabic",
+      "code": "ar",
+      "flag": ":flag_sa:"
+    },
+    {
+      "codeID": "hy",
+      "language": "Armenian",
+      "code": "hy",
+      "flag": ":flag_am:"
+    },
+    {
+      "codeID": "az",
+      "language": "Azerbaijani",
+      "code": "az",
+      "flag": ":flag_az:"
+    },
+    {
+      "codeID": "eu",
+      "language": "Basque",
+      "code": "eu",
+      "flag": ":flag_es:"
+    },
+    {
+      "codeID": "be",
+      "language": "Belarusian",
+      "code": "be",
+      "flag": ":flag_by:"
+    },
+    {
+      "codeID": "bn",
+      "language": "Bengali",
+      "code": "bn",
+      "flag": ":flag_bd:"
+    },
+    {
+      "codeID": "bs",
+      "language": "Bosnian",
+      "code": "bs",
+      "flag": ":flag_ba:"
+    },
+    {
+      "codeID": "bg",
+      "language": "Bulgarian",
+      "code": "bg",
+      "flag": ":flag_bg:"
+    },
+    {
+      "codeID": "ca",
+      "language": "Catalan",
+      "code": "ca",
+      "flag": ":flag_ad:"
+    },
+    {
+      "codeID": "ceb",
+      "language": "Cebuano",
+      "code": "ceb",
+      "flag": ":flag_ph:"
+    },
+    {
+      "codeID": "zh-cn",
+      "language": "Chinese (Simplified)",
+      "code": "zh-CN",
+      "flag": ":flag_cn:"
+    },
+    {
+      "codeID": "zh cn",
+      "language": "Chinese (Simplified)",
+      "code": "zh-CN",
+      "flag": ":flag_cn:"
+    },
+    {
+      "codeID": "zh",
+      "language": "Chinese (Simplified)",
+      "code": "zh",
+      "flag": ":flag_cn:"
+    },
+    {
+      "codeID": "zh-tw",
+      "language": "Chinese (Traditional)",
+      "code": "zh-TW",
+      "flag": ":flag_cn:"
+    },
+    {
+      "codeID": "zh tw",
+      "language": "Chinese (Traditional)",
+      "code": "zh-TW",
+      "flag": ":flag_cn:"
+    },
+    {
+      "codeID": "co",
+      "language": "Corsican",
+      "code": "co",
+      "flag": ":flag_fr:"
+    },
+    {
+      "codeID": "hr",
+      "language": "Croatian",
+      "code": "hr",
+      "flag": ":flag_hr:"
+    },
+    {
+      "codeID": "cs",
+      "language": "Czech",
+      "code": "cs",
+      "flag": ":flag_cz:"
+    },
+    {
+      "codeID": "da",
+      "language": "Danish",
+      "code": "da",
+      "flag": ":flag_dk:"
+    },
+    {
+      "codeID": "nl",
+      "language": "Dutch",
+      "code": "nl",
+      "flag": ":flag_nl:"
+    },
+    {
+      "codeID": "en",
+      "language": "English",
+      "code": "en",
+      "flag": ":flag_gb:"
+    },
+    {
+      "codeID": "eo",
+      "language": "Esperanto",
+      "code": "eo",
+      "flag": ":flag_pl:"
+    },
+    {
+      "codeID": "et",
+      "language": "Estonian",
+      "code": "et",
+      "flag": ":flag_ee:"
+    },
+    {
+      "codeID": "fi",
+      "language": "Finnish",
+      "code": "fi",
+      "flag": ":flag_fi:"
+    },
+    {
+      "codeID": "fr",
+      "language": "French",
+      "code": "fr",
+      "flag": ":flag_fr:"
+    },
+    {
+      "codeID": "fy",
+      "language": "Frisian",
+      "code": "fy",
+      "flag": ":flag_de:"
+    },
+    {
+      "codeID": "gl",
+      "language": "Galician",
+      "code": "gl",
+      "flag": ":flag_es:"
+    },
+    {
+      "codeID": "ka",
+      "language": "Georgian",
+      "code": "ka",
+      "flag": ":flag_ge:"
+    },
+    {
+      "codeID": "de",
+      "language": "German",
+      "code": "de",
+      "flag": ":flag_de:"
+    },
+    {
+      "codeID": "el",
+      "language": "Greek",
+      "code": "el",
+      "flag": ":flag_gr:"
+    },
+    {
+      "codeID": "gu",
+      "language": "Gujarati",
+      "code": "gu",
+      "flag": ":flag_in:"
+    },
+    {
+      "codeID": "ht",
+      "language": "HaitianCreole",
+      "code": "ht",
+      "flag": ":flag_ht:"
+    },
+    {
+      "codeID": "ha",
+      "language": "Hausa",
+      "code": "ha",
+      "flag": ":flag_ng:"
+    },
+    {
+      "codeID": "haw",
+      "language": "Hawaiian",
+      "code": "haw",
+      "flag": ":flag_us:"
+    },
+    {
+      "codeID": "he",
+      "language": "Hebrew",
+      "code": "he",
+      "flag": ":flag_il:"
+    },
+    {
+      "codeID": "iw",
+      "language": "Hebrew",
+      "code": "iw",
+      "flag": ":flag_il:"
+    },
+    {
+      "codeID": "hi",
+      "language": "Hindi",
+      "code": "hi",
+      "flag": ":flag_in:"
+    },
+    {
+      "codeID": "hmn",
+      "language": "Hmong",
+      "code": "hmn",
+      "flag": ":flag_cn:"
+    },
+    {
+      "codeID": "hu",
+      "language": "Hungarian",
+      "code": "hu",
+      "flag": ":flag_hu:"
+    },
+    {
+      "codeID": "is",
+      "language": "Icelandic",
+      "code": "is",
+      "flag": ":flag_is:"
+    },
+    {
+      "codeID": "ig",
+      "language": "Igbo",
+      "code": "ig",
+      "flag": ":flag_ng:"
+    },
+    {
+      "codeID": "id",
+      "language": "Indonesian",
+      "code": "id",
+      "flag": ":flag_id:"
+    },
+    {
+      "codeID": "ga",
+      "language": "Irish",
+      "code": "ga",
+      "flag": ":flag_ie:"
+    },
+    {
+      "codeID": "it",
+      "language": "Italian",
+      "code": "it",
+      "flag": ":flag_it:"
+    },
+    {
+      "codeID": "ja",
+      "language": "Japanese",
+      "code": "ja",
+      "flag": ":flag_jp:"
+    },
+    {
+      "codeID": "jv",
+      "language": "Javanese",
+      "code": "jv",
+      "flag": ":flag_id:"
+    },
+    {
+      "codeID": "kn",
+      "language": "Kannada",
+      "code": "kn",
+      "flag": ":flag_in:"
+    },
+    {
+      "codeID": "kk",
+      "language": "Kazakh",
+      "code": "kk",
+      "flag": ":flag_kz:"
+    },
+    {
+      "codeID": "km",
+      "language": "Khmer",
+      "code": "km",
+      "flag": ":flag_kh:"
+    },
+    {
+      "codeID": "rw",
+      "language": "Kinyarwanda",
+      "code": "rw",
+      "flag": ":flag_rw:"
+    },
+    {
+      "codeID": "ko",
+      "language": "Korean",
+      "code": "ko",
+      "flag": ":flag_kr:"
+    },
+    {
+      "codeID": "ku",
+      "language": "Kurdish",
+      "code": "ku",
+      "flag": ":flag_iq:"
+    },
+    {
+      "codeID": "ky",
+      "language": "Kyrgyz",
+      "code": "ky",
+      "flag": ":flag_kg:"
+    },
+    {
+      "codeID": "lo",
+      "language": "Lao",
+      "code": "lo",
+      "flag": ":flag_la:"
+    },
+    {
+      "codeID": "la",
+      "language": "Latin",
+      "code": "la",
+      "flag": ":pirate_flag:"
+    },
+    {
+      "codeID": "lv",
+      "language": "Latvian",
+      "code": "lv",
+      "flag": ":flag_lv:"
+    },
+    {
+      "codeID": "lt",
+      "language": "Lithuanian",
+      "code": "lt",
+      "flag": ":flag_lt:"
+    },
+    {
+      "codeID": "lb",
+      "language": "Luxembourgish",
+      "code": "lb",
+      "flag": ":flag_lu:"
+    },
+    {
+      "codeID": "mk",
+      "language": "Macedonian",
+      "code": "mk",
+      "flag": ":flag_mk:"
+    },
+    {
+      "codeID": "mg",
+      "language": "Malagasy",
+      "code": "mg",
+      "flag": ":flag_mg:"
+    },
+    {
+      "codeID": "ms",
+      "language": "Malay",
+      "code": "ms",
+      "flag": ":flag_my:"
+    },
+    {
+      "codeID": "ml",
+      "language": "Malayalam",
+      "code": "ml",
+      "flag": ":flag_in:"
+    },
+    {
+      "codeID": "mt",
+      "language": "Maltese",
+      "code": "mt",
+      "flag": ":flag_mt:"
+    },
+    {
+      "codeID": "mi",
+      "language": "Maori",
+      "code": "mi",
+      "flag": ":flag_nz:"
+    },
+    {
+      "codeID": "mr",
+      "language": "Marathi",
+      "code": "mr",
+      "flag": ":flag_in:"
+    },
+    {
+      "codeID": "mn",
+      "language": "Mongolian",
+      "code": "mn",
+      "flag": ":flag_mn:"
+    },
+    {
+      "codeID": "my",
+      "language": "Myanmar (Burmese)",
+      "code": "my",
+      "flag": ":flag_mm:"
+    },
+    {
+      "codeID": "ne",
+      "language": "Nepali",
+      "code": "ne",
+      "flag": ":flag_np:"
+    },
+    {
+      "codeID": "no",
+      "language": "Norwegian",
+      "code": "no",
+      "flag": ":flag_no:"
+    },
+    {
+      "codeID": "ny",
+      "language": "Nyanja (Chichewa)",
+      "code": "ny",
+      "flag": ":flag_mw:"
+    },
+    {
+      "codeID": "or",
+      "language": "Odia (Oriya)",
+      "code": "or",
+      "flag": ":flag_in:"
+    },
+    {
+      "codeID": "ps",
+      "language": "Pashto",
+      "code": "ps",
+      "flag": ":flag_af:"
+    },
+    {
+      "codeID": "fa",
+      "language": "Persian",
+      "code": "fa",
+      "flag": ":flag_ir:"
+    },
+    {
+      "codeID": "pl",
+      "language": "Polish",
+      "code": "pl",
+      "flag": ":flag_pl:"
+    },
+    {
+      "codeID": "pt",
+      "language": "Portuguese (Portugal, Brazil)",
+      "code": "pt",
+      "flag": ":flag_pt:"
+    },
+    {
+      "codeID": "pa",
+      "language": "Punjabi",
+      "code": "pa",
+      "flag": ":flag_pk:"
+    },
+    {
+      "codeID": "ro",
+      "language": "Romanian",
+      "code": "ro",
+      "flag": ":flag_ro:"
+    },
+    {
+      "codeID": "ru",
+      "language": "Russian",
+      "code": "ru",
+      "flag": ":flag_ru:"
+    },
+    {
+      "codeID": "sm",
+      "language": "Samoan",
+      "code": "sm",
+      "flag": ":flag_ws:"
+    },
+    {
+      "codeID": "gd",
+      "language": "ScotsGaelic",
+      "code": "gd",
+      "flag": ":scotland:"
+    },
+    {
+      "codeID": "sr",
+      "language": "Serbian",
+      "code": "sr",
+      "flag": ":flag_rs:"
+    },
+    {
+      "codeID": "st",
+      "language": "Sesotho",
+      "code": "st",
+      "flag": ":flag_ls:"
+    },
+    {
+      "codeID": "sn",
+      "language": "Shona",
+      "code": "sn",
+      "flag": ":flag_zw:"
+    },
+    {
+      "codeID": "sd",
+      "language": "Sindhi",
+      "code": "sd",
+      "flag": ":flag_pk:"
+    },
+    {
+      "codeID": "si",
+      "language": "Sinhala (Sinhalese)",
+      "code": "si",
+      "flag": ":flag_lk:"
+    },
+    {
+      "codeID": "sk",
+      "language": "Slovak",
+      "code": "sk",
+      "flag": ":flag_sk:"
+    },
+    {
+      "codeID": "sl",
+      "language": "Slovenian",
+      "code": "sl",
+      "flag": ":flag_si:"
+    },
+    {
+      "codeID": "so",
+      "language": "Somali",
+      "code": "so",
+      "flag": ":flag_so:"
+    },
+    {
+      "codeID": "es",
+      "language": "Spanish",
+      "code": "es",
+      "flag": ":flag_ea:"
+    },
+    {
+      "codeID": "su",
+      "language": "Sundanese",
+      "code": "su",
+      "flag": ":flag_id:"
+    },
+    {
+      "codeID": "sw",
+      "language": "Swahili",
+      "code": "sw",
+      "flag": ":flag_tz:"
+    },
+    {
+      "codeID": "sv",
+      "language": "Swedish",
+      "code": "sv",
+      "flag": ":flag_se:"
+    },
+    {
+      "codeID": "tl",
+      "language": "Tagalog (Filipino)",
+      "code": "tl",
+      "flag": ":flag_ph:"
+    },
+    {
+      "codeID": "tg",
+      "language": "Tajik",
+      "code": "tg",
+      "flag": ":flag_tj:"
+    },
+    {
+      "codeID": "ta",
+      "language": "Tamil",
+      "code": "ta",
+      "flag": ":flag_lk:"
+    },
+    {
+      "codeID": "tt",
+      "language": "Tatar",
+      "code": "tt",
+      "flag": ":flag_ru:"
+    },
+    {
+      "codeID": "te",
+      "language": "Telugu",
+      "code": "te",
+      "flag": ":flag_in:"
+    },
+    {
+      "codeID": "th",
+      "language": "Thai",
+      "code": "th",
+      "flag": ":flag_th:"
+    },
+    {
+      "codeID": "tr",
+      "language": "Turkish",
+      "code": "tr",
+      "flag": ":flag_tr:"
+    },
+    {
+      "codeID": "tk",
+      "language": "Turkmen",
+      "code": "tk",
+      "flag": ":flag_tm:"
+    },
+    {
+      "codeID": "uk",
+      "language": "Ukrainian",
+      "code": "uk",
+      "flag": ":flag_ua:"
+    },
+    {
+      "codeID": "ur",
+      "language": "Urdu",
+      "code": "ur",
+      "flag": ":flag_pk:"
+    },
+    {
+      "codeID": "ug",
+      "language": "Uyghur",
+      "code": "ug",
+      "flag": ":flag_cn:"
+    },
+    {
+      "codeID": "uz",
+      "language": "Uzbek",
+      "code": "uz",
+      "flag": ":flag_uz:"
+    },
+    {
+      "codeID": "vi",
+      "language": "Vietnamese",
+      "code": "vi",
+      "flag": ":flag_vn:"
+    },
+    {
+      "codeID": "cy",
+      "language": "Welsh",
+      "code": "cy",
+      "flag": ":wales:"
+    },
+    {
+      "codeID": "xh",
+      "language": "Xhosa",
+      "code": "xh",
+      "flag": ":flag_za:"
+    },
+    {
+      "codeID": "yi",
+      "language": "Yiddish",
+      "code": "yi",
+      "flag": ":flag_ba:"
+    },
+    {
+      "codeID": "yo",
+      "language": "Yoruba",
+      "code": "yo",
+      "flag": ":flag_tg:"
+    },
+    {
+      "codeID": "zu",
+      "language": "Zulu",
+      "code": "zu",
+      "flag": ":flag_za:"
+    }
+  ]
+}
