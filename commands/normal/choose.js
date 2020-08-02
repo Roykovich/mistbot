@@ -5,13 +5,13 @@ module.exports = {
 	name: 'choose',
 	description: 'Allows the bot to choose from an group of choices.',
 	aliases: ['decisions', 'elecciones', 'elections'],
-	usage: '[command name] <choice 1> / <choice 2> / <choice 3> ... <choice n>\n use ( / ) as separator.',
+	usage: '<choice 1> / <choice 2> / <choice 3> ... <choice n>\n use ( / ) as separator.',
 	cooldown: 3,
 	execute(message, args) {
 		// We declare a new Chance object
 		const chance = new Chance();
 		// We set our choices separator
-		const choices = args.join(' ').split(' / ');
+		const choices = args.join(' ').split(/( ?\/ ?)/);
 		// we sue the pickone method from the Chance object to choose a random
 		// choice.
 		const res = chance.pickone(choices);

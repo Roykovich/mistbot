@@ -3,10 +3,10 @@ module.exports = {
 	name: 'poll',
 	description: 'A simple poll embed. It covers 1 to 10 choices.',
 	aliases: ['survey', 'votacion'],
-	usage: '[command name] <choice 1> / <choice 2> / <choice 3> ... <choice 10>',
+	usage: '<choice 1> / <choice 2> / <choice 3> ... <choice 10>',
 	cooldown: 60,
 	async execute(message, args) {
-		const options = args.join(' ').split(' / ');
+		const options = args.join(' ').split(/( ?\/ ?)/);
 		const letters = ['🇦', '🇧', '🇨', '🇩', '🇪', '🇫', '🇬', '🇭', '🇮', '🇯'];
 		if (options.length <= 2) return message.reply('Add more choices please!');
 		if (options.length > 11) return message.reply('You added to much choices, please use the maximun: **10**');
