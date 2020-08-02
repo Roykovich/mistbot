@@ -5,7 +5,7 @@ module.exports = {
 	name: 'prefix',
 	description: 'Change the prefix of the bot for this server.',
 	aliases: ['prefijo'],
-	usage: '[command name] <prefix> or just [command name] to know the current prefix of the bot',
+	usage: '<prefix> or just [command name] to know the current prefix of the bot',
 	cooldown: 5,
 	execute(message, args) {
 		const guildID = message.guild.id;

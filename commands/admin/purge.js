@@ -2,7 +2,7 @@ module.exports = {
 	name: 'purge',
 	description: 'Purges at least 1 message from a channel.',
 	aliases: ['purgar'],
-	usage: '[command name] <amount of messages>',
+	usage: '<amount of messages>',
 	cooldown: 5,
 	async execute(message, args) {
 		// I should comment this module but almost everything is self-explicative

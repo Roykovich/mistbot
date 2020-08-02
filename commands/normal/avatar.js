@@ -2,7 +2,7 @@ module.exports = {
 	name: 'avatar',
 	description: 'returns your avatar or someone else avatar',
 	aliases: ['icon', 'pfp'],
-	usage: '[command name] <mention user>(optional)',
+	usage: '<mention user>(optional)',
 	cooldown: 10,
 	execute(message, args) {
 		// We create an embed object

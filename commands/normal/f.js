@@ -10,7 +10,7 @@ module.exports = {
 	name: 'f',
 	description: 'tpye f to pay respects',
 	aliases: ['efe', 'F'],
-	usage: '[command name] <mention user>(optional)',
+	usage: '<mention user>(optional)',
 	cooldown: 5,
 	execute(message, args) {
 		const toRespect = message.mentions.members.first() || message.guild.members.cache.get(args[0]);

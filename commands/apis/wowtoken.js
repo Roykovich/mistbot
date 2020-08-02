@@ -12,7 +12,7 @@ module.exports = {
   name: 'wowtoken',
   description: 'Return the WoW token princes of any region.',
   aliases: ['ficha', 'tokendewow', 'lechuga'],
-  usage: '[command name]',
+  usage: '',
   cooldown: 15,
   async execute(message) {
     // We create our good boy embed object.

@@ -3,7 +3,7 @@ module.exports = {
 	name: 'rate',
 	description: 'Rates something',
 	aliases: ['ratea'],
-	usage: '[command name] <something to rate>',
+	usage: '<something to rate>',
 	cooldown: 5,
 	execute(message, args) {
 		// Everything here is self-explicative

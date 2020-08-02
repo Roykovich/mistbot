@@ -5,7 +5,7 @@ module.exports = {
   name: 'urbandictionary',
   description: 'Searchs in the urbandictionary website any match from a given word',
   aliases: ['urban', 'ud'],
-  usage: '[command name] <term you want to get a definition for it>',
+  usage: '<term you want to get a definition for it>',
   cooldown: 10,
   async execute(message, args) {
     // if no term specified, return an error message.

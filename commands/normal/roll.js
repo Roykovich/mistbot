@@ -3,7 +3,7 @@ module.exports = {
 	name: 'roll',
 	description: 'Rolls a dice from 0 to 100 or 1 to your number (maximum 1000)',
 	aliases: ['dice'],
-	usage: '[command name] <number>(optional)',
+	usage: '<number>(optional)',
 	cooldown: 3,
 	execute(message, args) {
 		const chance = new Chance();

@@ -3,8 +3,8 @@ const rfr = require('rfr');
 const { translation } = rfr('./core/translator');
 
 /** Todo
- * 1 - autenticador
- * 2 - soprote a varios idiomas
+ * 1 - autenticador (done)
+ * 2 - soprote a varios idiomas (done)
  * 3 - checkear strings
  * 4 - handlers.
  */
@@ -13,7 +13,7 @@ module.exports = {
   name: 'translator',
   description: 'It translates whatever you give to the bot... In theory.',
   aliases: ['translate', 'traducir', 'traduce'],
-  usage: '[command name] <first language> / <second language> / <text to translate>',
+  usage: '<first language> / <second language> / <text to translate>',
   cooldown: 15,
   async execute(message, args) {
     const arguments = args.join(' ').split(' / ');
