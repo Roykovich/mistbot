@@ -34,5 +34,6 @@ loadCommands('normal');
 loadCommands('admin');
 loadCommands('own');
 loadCommands('apis');
+loadCommands('media');
 
 bot.login(token);
