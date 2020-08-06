@@ -1,6 +1,10 @@
 /* eslint-disable indent */
 const { GoogleSpreadsheet } = require('google-spreadsheet');
-const { googleSheetsCredentials: creds, sheetId } = require('../settings.json');
+const {
+  googleSheetsCredentials: creds,
+  tranlastionSheetId,
+}
+  = require('../settings.json');
 const { languages: langs } = require('../data/data.json');
 const exp = module.exports = {};
 
@@ -40,7 +44,7 @@ async function translateResult(input, firstLan, secondLan) {
 
 // This function sets the info the sheet cells
 async function translateInput(input, firstLan, secondLan) {
-  const doc = new GoogleSpreadsheet(sheetId);
+  const doc = new GoogleSpreadsheet(tranlastionSheetId);
   await doc.useServiceAccountAuth(creds);
   await doc.loadInfo();
   const sheet = doc.sheetsByIndex[0];
@@ -57,7 +61,7 @@ async function translateInput(input, firstLan, secondLan) {
 
 // This function fetch the info of the cells after they are uploaded and updated
 async function translateOutput() {
-  const doc = new GoogleSpreadsheet(sheetId);
+  const doc = new GoogleSpreadsheet(tranlastionSheetId);
   await doc.useServiceAccountAuth(creds);
   await doc.loadInfo();
   const sheet = doc.sheetsByIndex[0];
