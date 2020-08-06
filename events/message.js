@@ -24,6 +24,7 @@ loadCommands('normal');
 loadCommands('admin');
 loadCommands('own');
 loadCommands('apis');
+loadCommands('media');
 
 module.exports = async message => {
 
