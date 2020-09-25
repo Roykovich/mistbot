@@ -11,7 +11,7 @@ module.exports = {
 		// We declare a new Chance object
 		const chance = new Chance();
 		// We set our choices separator
-		const choices = args.join(' ').split(/( ?\/ ?)/);
+		const choices = args.join(' ').split(/ *[|/] */);
 		// we sue the pickone method from the Chance object to choose a random
 		// choice.
 		const res = chance.pickone(choices);
