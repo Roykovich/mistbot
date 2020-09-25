@@ -47,7 +47,6 @@ module.exports = {
       },
     };
 
-
     message.channel.send(`<@!${message.author.id}>`, { embed })
       .catch(err => console.error(err.stack));
   },

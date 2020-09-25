@@ -3,13 +3,6 @@ const rp = require('request-promise');
 const rfr = require('rfr');
 const { danbooru: auth } = rfr('./settings.json');
 
-const police = ['loli', 'rori', 'shota', 'lolicon', 'toddlercon', 'gore', 'guro', 'vore'];
-
-/**
- * TODO
- * tag parser
-*/
-
 module.exports = {
   name: 'danbooru',
   description: 'It returns a random image of the char you wanted from danbooru',
@@ -20,12 +13,8 @@ module.exports = {
     if (!args) return message.reply('Type the name of the char you wanna look up, you perv');
     const tags = args.join(' ').replace('-', '_');
 
-    for (const tag of args) {
-      for (const nope of police) {
-        console.log(tag);
-        console.log(nope);
-        if (tag === nope) return message.channel.send('https://cdn.discordapp.com/attachments/731987400863252502/739710218245767218/maxresdefault.png');
-      }
+    if (tags.match(/loli|rori|shota|lolicon|toddlercon|gore|guro|vore/gi)) {
+      return message.channel.send('https://cdn.discordapp.com/attachments/731987400863252502/739710218245767218/maxresdefault.png');
     }
 
     const danbooru = {
