@@ -1,7 +1,7 @@
 # Mist Bot
 
 <div align="center">
-<p><img src="https://cdn.discordapp.com/avatars/562342117284773908/07920792f8d8ed410974c365d375a5ae.png?size=128" alt="logo"></p>
+<p><img src="https://cdn.discordapp.com/avatars/562342117284773908/07920792f8d8ed410974c365d375a5ae.png?size=128" alt="logo" style="border-radius: 50%"></p>
 <p>
 <!-- <img src="https://img.shields.io/badge/npm-v6.4.1-informational.svg"> -->
 <a href="http://wwww.discord.js.org"><img src="https://img.shields.io/badge/uses-discord.js-%237289DA.svg" alt="discord.js"></a>
