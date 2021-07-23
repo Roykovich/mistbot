@@ -1,6 +1,6 @@
 {
   "name": "mist-bot",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Discord Bot written in Discord.Js",
   "main": "index.js",
   "scripts": {
