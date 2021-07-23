@@ -32,6 +32,10 @@ Mist Bot it's just a bot for Discord written in Javascript using [Discord.js](ht
   - **Media commands added:** Media commands has come to Mist Bot, from danbooru and safebooru to rule34. (with some tags exceptions due to Discord politics).
   - **My Anime List command:** This command allows you to search your favorite anime or manga, get a random recommendantion for an specific genre of anime and even to see the actual schedule of the current animes on air.
   - **Commands added:** danbooru, rule34, imgur, lolrandom and myanimelist.
+- v1.2.1
+  - **Commands removed:** wowtoken, translator.
+    - wowtoken has been removed because the current API where the prices were fetched from got down.
+    - translator has beed removed because I deleted the spreadsheet where the translation were fetched from and I didn't see the utility anymore.
 
 ## License
 
