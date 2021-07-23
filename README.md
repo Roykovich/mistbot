@@ -15,10 +15,6 @@ We belong to the mist but most important we belong to the memes.
 
 Mist Bot it's just a bot for Discord written in Javascript using [Discord.js](http://wwww.discord.js.org) and made with love... And tears.
 
-## Author
-
-### Rubén 'Roy' Ortiz
-
 ## Changelog
 
 - v1.1.0
